@@ -1,0 +1,109 @@
+@import "../../../../colors/colors.scss";
+
+@media only screen and (max-width: 1200px) {
+  .nav {
+    .navList {
+      .item {
+        margin: 0 20px;
+        a {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .nav {
+    .navList {
+      .item {
+        margin-top: -3px;
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 800px) {
+  .nav {
+    .navList {
+      .item {
+        margin-left: 10px;
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 667px) {
+  .nav {
+    .navList {
+      .item {
+        margin-left: 0px;
+        a {
+          font-size: 13px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 575px) {
+  .nav {
+    width: 96%;
+    padding: 30px 15px;
+    box-sizing: border-box;
+    background: $black;
+    position: absolute;
+    border-bottom-left-radius: 30px;
+    display: none;
+    top: 0;
+    right: 0;
+    .navList {
+      flex-direction: column;
+      padding-top: 100px;
+      .item {
+        margin-bottom: 20px;
+        a {
+          font-size: 18px;
+        }
+      }
+    }
+  }
+
+  .btn {
+    display: block;
+  }
+}
+
+@media only screen and (max-width: 475px) {
+  .nav {
+    .navList {
+      .item {
+        a {
+          font-size: 16px;
+        }
+      }
+    }
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  .nav {
+    .navList {
+      .item {
+        a {
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .btn {
+    font-size: 25px;
+  }
+}
