@@ -1,11 +1,16 @@
 import React from 'react'
+import Form from '../components/form/Form'
 import Herosection from './herosection/Herosection'
+import Learning from './learningSection/Learning'
 
 const HomePage = () => {
   return (
-   <section>
+   <>
       <Herosection/>
-   </section>
+      <Learning/>
+      <Form/>
+   </>
+   
   )
 }
 

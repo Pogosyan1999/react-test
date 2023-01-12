@@ -15,28 +15,3 @@ ul {
   margin: 0;
   padding: 0;
 }
-
-.container {
-  width: 85%;
-  justify-content: space-between;
-  display: flex;
-  flex-wrap: wrap;
-  margin: 0 auto;
-  align-items: center;
-}
-
-
-.header {
-  width: 100%;
-  padding-top: 30px;
-}
-
-.section{
-  margin-top: 100px;
-}
-
-@media only screen and (max-width: 768px) {
-  .container{
-    width: 95%;
-  }
-}

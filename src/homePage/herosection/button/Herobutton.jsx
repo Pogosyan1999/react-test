@@ -1,10 +1,9 @@
 import React from "react";
-import style from "./css/style.module.scss";
-import media from "./css/media.module.scss";
+import style from "./style.module.scss";
 
 const Herobutton = () => {
   return (
-    <button className={`${style.btn} ${media.Btn}`}>
+    <button className={style.btn}>
       Начать зарабатывать на NFT
     </button>
   );
