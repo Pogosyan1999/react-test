@@ -1,8 +1,7 @@
 import { useState } from "react";
 import { NavbarItems } from "./NavbarItems";
 import { HiOutlineBars2 } from "react-icons/hi2";
-import style from "./css/style.module.scss";
-import media from "./css/media.module.scss";
+import style from "./style.module.scss";
 import { Link } from "react-router-dom";
 import HeaderBtn from "../button/HeaderBtn";
 import {IoCloseSharp} from 'react-icons/io5'
@@ -12,16 +11,16 @@ const Navbar = () => {
   return (
     <>
      <button
-        className={`${style.btn} ${media.btn}`}
+        className={style.btn}
         onClick={() => setButton(!button)}
       >
         {button ? <IoCloseSharp/>: <HiOutlineBars2/>}
       </button>
-    <nav className={`${style.nav} ${media.nav} ${button ? style.active : ''}`}>
-      <ul className={`${style.navList} ${media.navList}`}>
+    <nav className={`${style.nav} ${button ? style.active : ''}`}>
+      <ul className={style.navList} >
         {NavbarItems.map((items) => {
           return (
-            <li className={`${style.item} ${media.item}`} key={items.id}>
+            <li className={style.item} key={items.id}>
               <Link to={items.url}>{items.name}</Link>
             </li>
           );

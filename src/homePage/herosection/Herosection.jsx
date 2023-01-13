@@ -1,4 +1,4 @@
-import React from "react";
+
 import Man from "./men/Man";
 import Title from "./title/Title";
 import Text from "./text/Text";

@@ -1,0 +1,78 @@
+@import '../../../colors/colors.scss';
+.headerBtn{
+    margin-left: 110px;
+    margin-top: 3px;
+    a{
+        font-size: 16px;
+        color: $white;
+        padding: 16px 22px;
+        border-radius: 15px;
+        border: 1px solid $white;
+        transition: 0.3s;
+    }
+    a:hover{
+        color: $yellow;
+        border: 1px solid $yellow;
+       
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .headerBtn {
+      margin-left: 50px;
+      margin-top: 0;
+    }
+  }
+  
+  @media only screen and (max-width: 800px) {
+    .headerBtn {
+      margin-left: 20px;
+      a {
+        padding: 10px 16px;
+        font-size: 14px;
+        border-radius: 15px;
+        transition: 0.3s;
+      }
+    }
+  }
+  
+  @media only screen and (max-width: 667px) {
+     
+      .headerBtn{
+          margin-left: 16px;
+           a{
+             padding: 8px 14px;
+              font-size: 13px;
+             border-radius: 15px;
+             transition: .3s;
+           }
+        
+        }
+      }
+  
+      @media only screen and (max-width: 575px) {
+     
+          .headerBtn{
+              margin-left:0px;
+              margin-top: 80px;
+              padding-bottom: 20px;
+               a{
+                 padding: 10px 16px;
+                 font-size: 16px;
+                 
+               }
+            
+            }
+          }
+  
+          @media only screen and (max-width: 320px) {
+     
+              .headerBtn{
+                   a{
+                     padding: 8px 14px;
+                     font-size: 14px;  
+                   }
+                
+                }
+              }
+  

@@ -1,4 +1,47 @@
-@import "../../../../colors/colors.scss";
+@import "../../../colors/colors.scss";
+.nav {
+  width: 90%;
+  position: relative;
+  z-index: 5;
+  .navList {
+   display: flex;
+   justify-content: end;
+   
+    .item {
+      margin: 0 25px;
+      a {
+        color: $lightGrey;
+        font-size: 20px;
+        transition: 0.3s;
+      }
+      a:hover{
+        color: $yellow;
+      }
+    }
+  }
+  
+}
+
+
+.btn{
+    background: none;
+    border:none;
+    outline:none;
+    font-size: 35px;
+    color:$white ;
+    padding-top: 5px;
+    display: none;
+    position: relative;
+    z-index: 10;
+  
+}
+
+.active{
+   display: block !important;
+
+}
+
+
 
 @media only screen and (max-width: 1200px) {
   .nav {
