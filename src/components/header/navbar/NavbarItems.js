@@ -2,12 +2,12 @@ export const NavbarItems = [
     {
         id:'1',
         name:'Главная ',
-        url:'#'
+        url:'heroSection'
     },
     {
         id:'2',
         name:'Что даст обучение ',
-        url:'#'
+        url:'learning'
     }
     
 ]

@@ -6,7 +6,7 @@ import Herobutton from "./button/Herobutton";
 
 const Herosection = () => {
   return (
-    <section className="heroSection container">
+    <section className="heroSection container" id = 'heroSection'>
       <div className="heroSection_minContainer">
         <Title />
         <Man />

@@ -8,7 +8,7 @@ import img3 from "../../img/circle3.png";
 
 const Learning = () => {
   return (
-    <section className="container">
+    <section className="container" id = "learning">
       <Title />
       <div className={style.container}>
         <div className={style.imgContainer1}>

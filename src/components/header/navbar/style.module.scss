@@ -13,10 +13,16 @@
         color: $lightGrey;
         font-size: 20px;
         transition: 0.3s;
+        cursor: pointer;
+        &:hover{
+          color: $yellow;
+        }
       }
-      a:hover{
-        color: $yellow;
-      }
+      
+     .activeLink{
+      color: $yellow ;
+     }
+
     }
   }
   
